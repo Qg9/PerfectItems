@@ -1,0 +1,58 @@
+prices:
+  apple: 4
+  dirt: 4
+  carrot: 2
+items:
+  examplehoe:
+    type: DIAMOND_HOE
+    name: "&bHoe du Fermier"
+    unbreakable: true
+    enchants:
+      DURABILITY: 1
+    properties:
+      farmhoe:
+        sell: true
+        radius: 3
+        multiplier: 5
+        replant: true
+  examplehammer:
+    type: DIAMOND_PICKAXE
+    name: "&aMarteau"
+    unbreakable: true
+    enchants:
+      DURABILITY: 1
+    properties:
+      hammer:
+        value: 5
+  examplekeep:
+    type: DIAMOND_SWORD
+    name: "&cEpee de L'infini"
+    unbreakable: true
+    enchants:
+      DURABILITY: 1
+    properties:
+      keepinventory: true
+  examplefarmsword:
+    type: DIAMOND_SWORD
+    name: "&6Epée de Farm"
+    lore:
+      - ""
+      - "&6$$$$$$$$$$$$"
+    unbreakable: true
+    properties:
+      farmsword:
+        sell: true
+        killer: 4
+        exp_multiplier: 2.5
+        money_multiplier: 3
+
+  examplesellstick:
+    type: STICK
+    name: "&6Stick de Vente"
+    lore:
+      - ""
+      - "&6$$$$$$$$$$$$"
+    unbreakable: true
+    properties:
+      sellstick:
+        value: 2.5

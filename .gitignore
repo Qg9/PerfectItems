@@ -1,0 +1,8 @@
+build/
+.idea/
+.gradle/
+gradlew
+gradlew.bat
+modules/main/build
+modules/common/build
+modules/latest/build
